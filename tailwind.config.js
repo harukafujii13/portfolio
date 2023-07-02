@@ -14,6 +14,10 @@ module.exports = {
         'primary-yellow': '#FDF100',
         'primary-green': '#00FECB',
       },
+      fontFamily: {
+        montserrat: [`var-(--font-montserrat)`],
+        inter: [`var-(--font-inter)`],
+      },
     },
   },
   plugins: [],
