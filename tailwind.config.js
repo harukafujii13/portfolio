@@ -29,6 +29,7 @@ module.exports = {
         'primary-purple': '#7A62F7',
         'primary-yellow': '#FDF100',
         'primary-green': '#00FECB',
+        'bg-light': '#f5f5f5',
         hoverColor: 'rgba(100,225,218,0.1)',
       },
       fontFamily: {
