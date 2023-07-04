@@ -30,7 +30,7 @@ module.exports = {
         'primary-yellow': '#FDF100',
         'primary-green': '#00FECB',
         'bg-light': '#f5f5f5',
-        hoverColor: 'rgba(100,225,218,0.1)',
+        hoverColor: '#00FECB',
       },
       fontFamily: {
         montserrat: ['var(--font-montserrat)'],
