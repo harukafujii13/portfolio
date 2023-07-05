@@ -76,13 +76,17 @@ export default function Navbar() {
             </Link>
           </ul>
 
-          <motion.button
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.5 }}
-            className="px-4 py-2 rounded-md text-primary-purple text-[1rem] border border-primary-purple hover:bg-hoverColor duration-300 font-medium">
-            Resume
-          </motion.button>
+          <a
+            href="#"
+            target="_blank">
+            <motion.button
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.5 }}
+              className="px-4 py-2 rounded-md text-primary-purple text-[1rem] border border-primary-purple hover:bg-hoverColor duration-300 font-medium">
+              Resume
+            </motion.button>
+          </a>
         </div>
       </div>
     </div>
