@@ -83,7 +83,7 @@ export default function Navbar() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
-              className="px-4 py-2 rounded-md text-primary-purple text-[1.1rem] border border-primary-purple hover:bg-hoverColor duration-300 font-bold">
+              className="px-4 py-2 rounded-md text-primary-purple text-[1.1rem] border border-primary-purple hover:bg-primary-green duration-300 font-bold">
               Resume
             </motion.button>
           </a>

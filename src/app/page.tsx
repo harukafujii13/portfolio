@@ -1,4 +1,4 @@
-import LeftSide from '@/components/MainLeftside/leftside.component';
+import LeftSide from '@/components/MainLeftside/leftSide.component';
 import Navbar from '@/components/Nav/navbar.component';
 
 export default function Home() {
