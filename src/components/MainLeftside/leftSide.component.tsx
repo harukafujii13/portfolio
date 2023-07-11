@@ -4,7 +4,7 @@ import { SlSocialLinkedin } from 'react-icons/sl';
 
 const LeftSide = () => {
   return (
-    <div className="w-full h-full flex flex-col items-start justify-center gap-4 text-primary-primary-gray">
+    <div className="w-full h-full flex flex-row items-center justify-start gap-4 text-primary-primary-gray ">
       <div className="flex flex-col gap-4">
         <a
           href="https://github.com/harukafujii13"
