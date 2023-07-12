@@ -25,7 +25,7 @@ module.exports = {
       },
       colors: {
         'primary-text': '#411557',
-        'primary-pink': '#FE84EB',
+        'primary-pink': '#F8B9E3',
         'primary-purple': '#7A62F7',
         'primary-yellow': '#FDF100',
         'primary-green': '#93FEB6',

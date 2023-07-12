@@ -13,7 +13,7 @@ export default function Navbar() {
           transition={{ duration: 0.5 }}>
           <img
             className="w-[4.5rem]"
-            src={'/img/logo2.svg'}
+            src={'/img/logo.svg'}
             alt="logo"
           />
         </motion.div>
