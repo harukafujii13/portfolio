@@ -24,11 +24,12 @@ module.exports = {
         xl: '1280px',
       },
       colors: {
-        'primary-gray': '#374C59',
+        'primary-text': '#411557',
         'primary-pink': '#FE84EB',
         'primary-purple': '#7A62F7',
         'primary-yellow': '#FDF100',
-        'primary-green': '#00FECB',
+        'primary-green': '#93FEB6',
+        'primary-red': '#DE777D',
         'bg-light': '#f5f5f5',
       },
       fontFamily: {

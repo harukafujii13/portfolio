@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 export default function Navbar() {
   return (
-    <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bg-light px-4 font-inter">
+    <div className="w-full h-20 lg:h-[12vh] sticky top-0 z-50 bg-bg-light px-4 font-inter">
       <div className="max-w-container h-full mx-auto py-1 flex items-center justify-between">
         <motion.div
           initial={{ opacity: 0 }}
@@ -22,7 +22,7 @@ export default function Navbar() {
           <ul className="flex text-[1.1rem] gap-7">
             <Link
               href="#home"
-              className="flex items-center gap-1 font-medium text-primary-gray hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
+              className="flex items-center gap-1 font-medium hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
@@ -33,7 +33,7 @@ export default function Navbar() {
 
             <Link
               href="#about"
-              className="flex items-center gap-1 font-medium text-primary-gray hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
+              className="flex items-center gap-1 font-medium hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0.1, opacity: 1 }}
@@ -44,7 +44,7 @@ export default function Navbar() {
 
             <Link
               href="#skills"
-              className="flex items-center gap-1 font-medium text-primary-gray hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
+              className="flex items-center gap-1 font-medium hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0.1, opacity: 1 }}
@@ -55,7 +55,7 @@ export default function Navbar() {
 
             <Link
               href="#Works"
-              className="flex items-center gap-1 font-medium text-primary-gray hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
+              className="flex items-center gap-1 font-medium hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0.1, opacity: 1 }}
@@ -66,7 +66,7 @@ export default function Navbar() {
 
             <Link
               href="#Contact"
-              className="flex items-center gap-1 font-medium text-primary-gray hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
+              className="flex items-center gap-1 font-medium hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0.1, opacity: 1 }}
