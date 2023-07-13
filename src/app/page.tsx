@@ -3,6 +3,7 @@
 import LeftSide from '@/components/MainLeftside/leftSide.component';
 import Navbar from '@/components/Nav/navbar.component';
 import RightSide from '@/components/MainRightside/rightSide.component';
+import Banner from '@/components/Banner/banner.component';
 import { motion } from 'framer-motion';
 
 export default function Home() {
@@ -17,7 +18,11 @@ export default function Home() {
           className="hidden xl:inline-flex w-32 h-full fixed left-0 bottom-0">
           <LeftSide />
         </motion.div>
-        <div className="h-[88vh] mx-auto p-4">Middle</div>
+
+        <div className="h-[88vh] w-full ml-[20rem] mx-auto p-4">
+          <Banner />
+        </div>
+
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
