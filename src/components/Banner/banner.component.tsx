@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import TypeWriter from '../TypeWriter/typeWriter.component';
 
 const Banner = () => {
   return (
@@ -28,6 +29,14 @@ const Banner = () => {
           Based in Vancouver.
         </span>
       </motion.h1>
+      <motion.div
+        initial={{ y: 10, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.8 }}
+        className="flex flex-row font-montserrat">
+        <h1 className="text-[1.5rem] font-bold">I am</h1>
+        <TypeWriter />
+      </motion.div>
     </section>
   );
 };
