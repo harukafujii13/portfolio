@@ -4,7 +4,7 @@ const TypeWriter = () => {
   const [text] = useTypewriter({
     words: [
       'a passionate developer.',
-      'keeping updated with knowledge.',
+      'constantly expanding my knowledge.',
       'open to exchanging opinions.',
       'good at handling stress.',
     ],

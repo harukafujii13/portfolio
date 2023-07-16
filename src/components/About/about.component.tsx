@@ -10,6 +10,10 @@ function About() {
         title="About Me"
         titleNo="01"
       />
+      <div>
+        <div className="flex flex-col lgl:flex-row gap-16"></div>
+        <div className="w-full lgl:w-2/3 text-base text-primary-text font-medium flex flex-col gap-4"></div>
+      </div>
     </section>
   );
 }
