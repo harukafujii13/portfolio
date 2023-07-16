@@ -23,10 +23,10 @@ const Banner = () => {
         <span className="text-[1.5rem] lg:text-5xl text-primary-text mt-2 lgl: mt-4 font-semibold">
           Creative{' '}
           <span className="text-primary-purple text-[1.5rem] lg:text-5xl font-black">
-            Front-end Developer
+            Software Engineer
           </span>{' '}
           <br />
-          Based in Vancouver.
+          specializing in Front-end.
         </span>
       </motion.h1>
       <motion.div
