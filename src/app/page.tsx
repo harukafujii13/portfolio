@@ -6,6 +6,7 @@ import RightSide from '@/components/MainRightside/rightSide.component';
 import Banner from '@/components/Banner/banner.component';
 import { motion } from 'framer-motion';
 import About from '@/components/About/about.component';
+import Skills from '@/components/Skills/skill.component';
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <div className="h-[88vh] mx-auto p-4">
           <Banner />
           <About />
+          <Skills />
         </div>
 
         <motion.div
