@@ -15,7 +15,7 @@ function About() {
           <p>
             Hello! My name is Haruka Fujii, and I am a{' '}
             <span className="text-primary-purple font-extrabold text-xl">
-              software engineer{' '}
+              Software Engineer{' '}
             </span>
             based in Vancouver. If I were to describe myself in a single word,
             it would be{' '}
@@ -48,7 +48,7 @@ function About() {
             , and I genuinely enjoy the process of acquiring new knowledge.
           </p>
           <p>
-            As a software engineer, my goal is to challenge myself by designing
+            As a software engineer, I'm going to challenge myself by designing
             innovative tools and frameworks that have the potential to improve
             people's lives.
           </p>
