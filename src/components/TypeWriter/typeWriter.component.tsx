@@ -6,7 +6,7 @@ const TypeWriter = () => {
       'a passionate developer.',
       'constantly expanding my knowledge.',
       'open to exchanging opinions.',
-      'good at handling stress.',
+      'good at cooping wirh stress.',
     ],
     loop: false,
     typeSpeed: 100,
