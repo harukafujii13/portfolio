@@ -48,7 +48,7 @@ const SkillIcons = () => {
           <div
             key={index}
             className="flex flex-col items-center mb-4">
-            <div className="text-normal sm:text-lg md:text-2xl mb-3">
+            <div className="text-normal sm:text-lg md:text-3xl mb-3">
               {icon.icon}
             </div>
             <p className="text-sm sm:text-sm md:text-base font-semibold font-inter">
