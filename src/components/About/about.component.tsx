@@ -53,7 +53,21 @@ function About() {
             people's lives.
           </p>
         </div>
-        <div className="w-full lgl:w-2/3 text-base text-primary-text font-medium flex flex-col gap-4"></div>
+        <div className="w-full lgl:w-1/3 h-80 relative group">
+          <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg">
+            <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0">
+              <img
+                className="rounded-lg h-full object-cover"
+                src={'/img/portfolio.svg'}
+                alt="portfolioImg"
+              />
+              <div className="hidden lgl:inline-block absolute w-full h-80 rounded-md top-0 left-0 group-hover:bg-transparent duration-300">
+                {' '}
+                <div className="hidden lgl:inline-flex w-full h-80 border-2 border-primary-green rounded-md group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300"></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
