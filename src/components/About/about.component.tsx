@@ -10,7 +10,7 @@ function About() {
         title="About Me"
         titleNo="01"
       />
-      <div className="flex flex-col lgl:flex-row gap-16 flex-col-reverse lgl:items-center">
+      <div className="flex flex-col lgl:flex-row lgl:gap-16 gap-5 flex-col-reverse lgl:items-center">
         <div className="w-full lgl:w-2/3 text-lg text-primary-text font-medium flex flex-col gap-4 font-inter tracking-wide">
           <p>
             Hello! My name is Haruka Fujii, and I am a{' '}
