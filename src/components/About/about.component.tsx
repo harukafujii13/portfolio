@@ -10,7 +10,7 @@ function About() {
         title="About Me"
         titleNo="01"
       />
-      <div className="flex flex-col lgl:flex-row gap-16">
+      <div className="flex flex-col lgl:flex-row gap-16 flex-col-reverse lgl:items-center">
         <div className="w-full lgl:w-2/3 text-lg text-primary-text font-medium flex flex-col gap-4 font-inter tracking-wide">
           <p>
             Hello! My name is Haruka Fujii, and I am a{' '}
@@ -53,9 +53,9 @@ function About() {
             people's lives.
           </p>
         </div>
-        <div className="w-full lgl:w-1/3 h-80 relative group">
-          <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg">
-            <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0">
+        <div className="w-full lgl:w-1/3 h-80 relative group flex justify-center items-center">
+          <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg flex justify-center items-center">
+            <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0 justify-center items-center">
               <img
                 className="rounded-lg h-full object-cover"
                 src={'/img/portfolio.svg'}
