@@ -7,6 +7,7 @@ import Banner from '@/components/Banner/banner.component';
 import { motion } from 'framer-motion';
 import About from '@/components/About/about.component';
 import Skills from '@/components/Skills/skill.component';
+import Works from '@/components/Works/works.component';
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
           <Banner />
           <About />
           <Skills />
+          <Works />
         </div>
 
         <motion.div
