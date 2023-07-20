@@ -55,7 +55,7 @@ function About() {
         </div>
         <div className="w-full lgl:w-1/3 h-80 relative group flex justify-center items-center">
           <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg flex justify-center items-center">
-            <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0 justify-center items-center">
+            <div className="w-full h-full relative z-20 flex justify-center items-center">
               <img
                 className="rounded-lg h-full object-cover"
                 src={'/img/portfolio.svg'}
