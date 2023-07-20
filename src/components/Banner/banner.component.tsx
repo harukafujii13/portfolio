@@ -11,18 +11,18 @@ const Banner = () => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.6 }}
-        className="text-base md:text-lg lg:text-2xl font-inter tracking-wide text-primary-purple font-extrabold">
+        className="text-base mdl:text-lg lg:text-2xl font-inter tracking-wide text-primary-purple font-extrabold">
         Hi, I'm
       </motion.h3>
       <motion.h1
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.7 }}
-        className="text-[2rem] lg:text-7xl font-tinter font-extrabold flex flex-col">
+        className="text-[2rem] lgl:text-7xl mdl:text-6xl  font-tinter font-extrabold flex flex-col">
         HARUKA FUJII.{' '}
-        <span className="text-[1.5rem] lg:text-5xl text-primary-text mt-2 lgl: mt-4 font-semibold">
+        <span className="text-[1.5rem] lg:text-5xl mdl:text-4xl  text-primary-text mt-2 lgl: mt-4 font-semibold">
           Creative{' '}
-          <span className="text-primary-purple text-[1.5rem] lg:text-5xl font-black">
+          <span className="text-primary-purple text-[1.5rem] lg:text-5xl mdl:text-4xl  font-black">
             Software Engineer
           </span>{' '}
           <br />
