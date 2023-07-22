@@ -6,7 +6,7 @@ import { RxOpenInNewWindow } from 'react-icons/rx';
 const Works = () => {
   return (
     <section
-      id="works"
+      id="Works"
       className="max-w-containerSmall mx-auto py-10 lgl:py-32 bg-light">
       <SectionTitle
         title="Works"
