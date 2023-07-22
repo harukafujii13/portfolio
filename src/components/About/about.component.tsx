@@ -66,7 +66,7 @@ function About() {
               </div>
             </div>
           </div>
-          <div className="hidden lgl:inline-flex w-full h-80 border-2 bg-primary-green border-primary-purple rounded-md group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300"></div>
+          <div className="hidden lgl:inline-flex w-full h-80 border-2  border-primary-purple rounded-md group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300"></div>
         </div>
       </div>
     </section>
