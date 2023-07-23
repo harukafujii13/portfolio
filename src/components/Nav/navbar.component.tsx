@@ -144,7 +144,7 @@ export default function Navbar() {
               initial={{ x: 20, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.1 }}
-              className="w-2/5 h-full overflow-y-scroll scrollbarHide bg-[#C6B8CC] flex flex-col items-center px-4 py-10 relative">
+              className="w-2/5 h-full overflow-y-scroll scrollbarHide bg-[#ECE7EE] flex flex-col items-center px-4 py-10 relative">
               <MdOutlineClose
                 onClick={() => setShowMenu(false)}
                 className="text-3xl text-primary-text cursor-pointer hover:text-primary-purple absolute top-4 right-4"
