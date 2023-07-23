@@ -42,7 +42,7 @@ const icons = [
 
 const SkillIcons = () => {
   return (
-    <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-9 gap-4">
+    <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-9 gap-4 lgl:mt-[8rem] mdl:mt-[5rem] mt-[3rem]">
       {icons.map((icon, index) => {
         return (
           <div
