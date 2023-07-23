@@ -8,6 +8,7 @@ import { motion } from 'framer-motion';
 import About from '@/components/About/about.component';
 import Skills from '@/components/Skills/skill.component';
 import Works from '@/components/Works/works.component';
+import Contact from '@/components/Contact/contact.component';
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
           <About />
           <Skills />
           <Works />
+          <Contact />
         </div>
 
         <motion.div
