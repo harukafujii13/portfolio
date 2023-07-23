@@ -2,8 +2,27 @@
 
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import React, { useRef } from 'react';
 
 export default function Navbar() {
+  const ref = useRef<string | any>('');
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    e.preventDefault();
+    const href = e.currentTarget.href;
+    const targetId = href.replace(/.*\#/, '');
+    const elem = document.getElementById(targetId);
+    elem?.scrollIntoView({
+      behavior: 'smooth',
+    });
+
+    const links = document.querySelectorAll('.nav-link');
+    links.forEach((link) => {
+      link.classList.remove('active');
+    });
+
+    e.currentTarget.classList.add('active');
+  };
+
   return (
     <div className="w-full h-20 lg:h-[12vh] sticky top-0 z-50 bg-bg-light px-4 font-inter">
       <div className="max-w-container h-full mx-auto py-1 flex items-center justify-between">
@@ -22,6 +41,7 @@ export default function Navbar() {
           <ul className="flex text-[1.1rem] gap-7">
             <Link
               href="#home"
+              onClick={handleScroll}
               className="flex items-center gap-1 font-medium hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
@@ -33,6 +53,7 @@ export default function Navbar() {
 
             <Link
               href="#about"
+              onClick={handleScroll}
               className="flex items-center gap-1 font-medium hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
@@ -44,6 +65,7 @@ export default function Navbar() {
 
             <Link
               href="#skills"
+              onClick={handleScroll}
               className="flex items-center gap-1 font-medium hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
@@ -55,6 +77,7 @@ export default function Navbar() {
 
             <Link
               href="#Works"
+              onClick={handleScroll}
               className="flex items-center gap-1 font-medium hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
@@ -66,6 +89,7 @@ export default function Navbar() {
 
             <Link
               href="#Contact"
+              onClick={handleScroll}
               className="flex items-center gap-1 font-medium hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
