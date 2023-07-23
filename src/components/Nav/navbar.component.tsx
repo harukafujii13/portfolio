@@ -147,10 +147,10 @@ export default function Navbar() {
               className="w-2/5 h-full overflow-y-scroll scrollbarHide bg-[#C6B8CC] flex flex-col items-center px-4 py-10 relative">
               <MdOutlineClose
                 onClick={() => setShowMenu(false)}
-                className="text-3xl text-primary-purple cursor-pointer hover:text-primary-pink absolute top-4 right-4"
+                className="text-3xl text-primary-text cursor-pointer hover:text-primary-purple absolute top-4 right-4"
               />
               <div className="flex flex-col items-center gap-7">
-                <ul className="flex flex-col text-base gap-7">
+                <ul className="flex flex-col text-base gap-7 items-center">
                   <Link
                     href="#home"
                     onClick={handleScroll}
@@ -289,7 +289,7 @@ export default function Navbar() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 1.2, ease: 'easeIn' }}
-                    className="text-sm w-72 tracking-widest text-primary-purple text-center mt-4"
+                    className="text-sm w-72 tracking-widest text-primary-text hover:text-primary-purple text-center mt-4"
                     href="mailto:harukafujii.dev@gmail.com">
                     harukafujii.dev@gmail.com
                   </motion.a>
