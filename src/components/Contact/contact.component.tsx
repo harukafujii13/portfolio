@@ -11,7 +11,7 @@ const Contact = () => {
         titleNo="04"
       />
       <div className="flex flex-col gap-4 items-center justify-center mt-[2rem]">
-        <h2 className="font-inter text-3xl text-primary-purple font-bold flex flex tems-center tracking-wide">
+        <h2 className="font-inter lgl:text-3xl mdl:text-3xl text-2xl text-primary-purple font-bold flex flex tems-center tracking-wide">
           Get In Touch
         </h2>
         <p className="max-w-[600px] text-center text-primary-text font-inter text-lg">
