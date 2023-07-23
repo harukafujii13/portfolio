@@ -10,6 +10,7 @@ import Skills from '@/components/Skills/skill.component';
 import Works from '@/components/Works/works.component';
 import Contact from '@/components/Contact/contact.component';
 import Footer from '@/components/Footer/footer.component';
+import FooterBottom from '@/components/Footer/footerBottom.component';
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
           <Works />
           <Contact />
           <Footer />
+          <FooterBottom />
         </div>
 
         <motion.div
