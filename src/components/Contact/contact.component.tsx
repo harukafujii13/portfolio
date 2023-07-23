@@ -10,7 +10,7 @@ const Contact = () => {
         title="Contact"
         titleNo="04"
       />
-      <div className="flex flex-col gap-4 items-center justify-center mt-[2rem]">
+      <div className="flex flex-col gap-4 items-center justify-center lgl:mt-[8rem] mdl:mt-[5rem] mt-[3rem]">
         <h2 className="font-inter lgl:text-3xl mdl:text-3xl text-2xl text-primary-purple font-bold flex flex tems-center tracking-wide">
           Get In Touch
         </h2>
