@@ -9,10 +9,13 @@ import About from '@/components/About/about.component';
 import Skills from '@/components/Skills/skill.component';
 import Works from '@/components/Works/works.component';
 import Contact from '@/components/Contact/contact.component';
+import Footer from '@/components/Footer/footer.component';
 
 export default function Home() {
   return (
-    <main className="w-full h-screen font-inter bg-bg-light text-primary-text overflow-x-hidden overflow-y-scroll">
+    <main
+      className="w-full h-screen font-inter bg-bg-light text-primary-text overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-light
+    scrollbar-thumb-primary-text/60">
       <Navbar />
       <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
         <motion.div
@@ -29,6 +32,7 @@ export default function Home() {
           <Skills />
           <Works />
           <Contact />
+          <Footer />
         </div>
 
         <motion.div
