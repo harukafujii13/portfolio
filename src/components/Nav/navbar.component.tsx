@@ -156,7 +156,7 @@ export default function Navbar() {
                     onClick={handleScroll}
                     className="flex items-center gap-1 font-medium hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
                     <motion.li
-                      initial={{ x: 20, opacity: 0 }}
+                      initial={{ y: 20, opacity: 0 }}
                       animate={{ y: 0, opacity: 1 }}
                       transition={{
                         duration: 0.2,
@@ -170,9 +170,9 @@ export default function Navbar() {
                   <Link
                     href="#about"
                     onClick={handleScroll}
-                    className="flex items-center gap-1 font-medium hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
+                    className="flex justify-center w-[10rem] items-center gap-1 font-medium hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
                     <motion.li
-                      initial={{ x: 20, opacity: 0 }}
+                      initial={{ y: 20, opacity: 0 }}
                       animate={{ y: 0, opacity: 1 }}
                       transition={{
                         duration: 0.2,
@@ -188,7 +188,7 @@ export default function Navbar() {
                     onClick={handleScroll}
                     className="flex items-center gap-1 font-medium hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
                     <motion.li
-                      initial={{ x: 20, opacity: 0 }}
+                      initial={{ y: 20, opacity: 0 }}
                       animate={{ y: 0, opacity: 1 }}
                       transition={{
                         duration: 0.2,
@@ -204,7 +204,7 @@ export default function Navbar() {
                     onClick={handleScroll}
                     className="flex items-center gap-1 font-medium hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
                     <motion.li
-                      initial={{ x: 20, opacity: 0 }}
+                      initial={{ y: 20, opacity: 0 }}
                       animate={{ y: 0, opacity: 1 }}
                       transition={{
                         duration: 0.2,
@@ -220,7 +220,7 @@ export default function Navbar() {
                     onClick={handleScroll}
                     className="flex items-center gap-1 font-medium hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
                     <motion.li
-                      initial={{ x: 20, opacity: 0 }}
+                      initial={{ y: 20, opacity: 0 }}
                       animate={{ y: 0, opacity: 1 }}
                       transition={{
                         duration: 0.2,
