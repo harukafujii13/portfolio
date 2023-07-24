@@ -144,7 +144,7 @@ export default function Navbar() {
               initial={{ x: 20, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.1 }}
-              className="w-2/5 h-full overflow-y-scroll scrollbarHide bg-[#ECE7EE] flex flex-col items-center px-4 py-10 relative">
+              className="md:w-2/5 sml:w-3/5 w-full h-full overflow-y-scroll scrollbarHide bg-[#ECE7EE] flex flex-col items-center px-4 py-10 relative">
               <MdOutlineClose
                 onClick={() => setShowMenu(false)}
                 className="text-3xl text-primary-text cursor-pointer hover:text-primary-purple absolute top-4 right-4"
@@ -289,7 +289,7 @@ export default function Navbar() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 1.2, ease: 'easeIn' }}
-                    className="text-sm w-72 tracking-widest text-primary-text hover:text-primary-purple text-center mt-4"
+                    className="text-sm w-72 tracking-widest text-primary-text hover:text-primary-purple text-center"
                     href="mailto:harukafujii.dev@gmail.com">
                     harukafujii.dev@gmail.com
                   </motion.a>
