@@ -6,7 +6,7 @@ const TypeWriter = () => {
       'a passionate developer.',
       'constantly expanding my knowledge.',
       'open to exchanging opinions.',
-      'good at cooping wirh stress.',
+      'good at cooping with stress.',
     ],
     loop: false,
     typeSpeed: 100,
@@ -15,7 +15,7 @@ const TypeWriter = () => {
 
   return (
     <>
-      <span className="pl-[0.5rem] text-[1rem] lgl:text-2xl font-extrabold">
+      <span className="pl-[0.5rem] text-[1rem] lgl:text-2xl font-extrabold xs:text-[0.8rem] sm:text-[0.8rem]">
         {text}
       </span>
       <Cursor cursorBlinking={false} />

@@ -34,7 +34,9 @@ const Banner = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.8 }}
         className="flex flex-row font-montserrat">
-        <h1 className="text-[1rem] lgl:text-2xl font-bold">I am</h1>
+        <h1 className="text-[1rem] lgl:text-2xl font-bold xs:text-[0.8rem] sm:text-[0.8rem]">
+          I am
+        </h1>
         <TypeWriter />
       </motion.div>
     </section>
