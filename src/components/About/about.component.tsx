@@ -13,14 +13,14 @@ function About() {
       <div className="flex flex-col lgl:flex-row lgl:gap-16 gap-2 lgl:mt-0 mt-4 flex-col-reverse lgl:items-center">
         <div className="w-full lgl:w-2/3 text-lg text-primary-text font-medium flex flex-col gap-4 font-inter tracking-wide">
           <p>
-            Hello! My name is Haruka Fujii, and I am a{' '}
+            Hello! My name is Haruka Fujii, and I am a
             <span className="text-primary-purple font-extrabold text-xl">
-              Software Engineer{' '}
+              Software Engineer
             </span>
             based in Vancouver. If I were to describe myself in a single word,
-            it would be{' '}
+            it would be
             <span className="text-primary-purple font-extrabold text-xl">
-              "adventurous"
+              &quot;adventurous&quot;
             </span>
             .
           </p>
@@ -32,25 +32,25 @@ function About() {
           </p>
           <p>
             I am committed to learning new skills every day, which I believe is
-            essential for my growth as an engineer. Currently, I'm rigorously
-            learning{' '}
+            essential for my growth as an engineer. Currently, I&apos;m
+            rigorously learning
             <span className="text-primary-purple font-extrabold text-xl">
               Typescript
             </span>
-            ,{' '}
+            ,
             <span className="text-primary-purple font-extrabold text-xl">
               React
             </span>
-            , and{' '}
+            , and
             <span className="text-primary-purple font-extrabold text-xl">
               Next.js
             </span>
             , and I genuinely enjoy the process of acquiring new knowledge.
           </p>
           <p>
-            As a software engineer, I'm going to challenge myself by designing
-            innovative tools and frameworks that have the potential to improve
-            people's lives.
+            As a software engineer, I&quot;m going to challenge myself by
+            designing innovative tools and frameworks that have the potential to
+            improve people&quot;s lives.
           </p>
         </div>
         <div className="w-full lgl:w-1/3 h-80 relative group flex justify-center items-center">
@@ -61,9 +61,7 @@ function About() {
                 src={'/img/portfolio.svg'}
                 alt="portfolioImg"
               />
-              <div className="hidden lgl:inline-block absolute w-full h-80 rounded-md top-0 left-0 group-hover:bg-transparent duration-300">
-                {' '}
-              </div>
+              <div className="hidden lgl:inline-block absolute w-full h-80 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </div>
           <div className="hidden lgl:inline-flex w-full h-80 border-2  border-primary-purple rounded-md group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300"></div>

@@ -16,7 +16,8 @@ const Contact = () => {
         </h2>
         <p className="max-w-[600px] text-center text-primary-text font-inter text-lg">
           Interested in discussing a project or want to know more about my work?
-          Let's talk! I'm always open to new opportunities and collaborations.
+          Let&apos;s talk! I&apos;m always open to new opportunities and
+          collaborations.
         </p>
         <a href="mailto:harukafujii.dev@gmail.com">
           <button
