@@ -13,12 +13,12 @@ function About() {
       <div className="flex flex-col lgl:flex-row lgl:gap-16 gap-2 lgl:mt-0 mt-4 flex-col-reverse lgl:items-center">
         <div className="w-full lgl:w-2/3 text-lg text-primary-text font-medium flex flex-col gap-4 font-inter tracking-wide">
           <p>
-            Hello! My name is Haruka Fujii, and I am a
+            Hello! My name is Haruka Fujii, and I am a&nbsp;
             <span className="text-primary-purple font-extrabold text-xl">
-              Software Engineer
+              Software Engineer&nbsp;
             </span>
             based in Vancouver. If I were to describe myself in a single word,
-            it would be
+            it would be&nbsp;
             <span className="text-primary-purple font-extrabold text-xl">
               &quot;adventurous&quot;
             </span>
@@ -33,15 +33,15 @@ function About() {
           <p>
             I am committed to learning new skills every day, which I believe is
             essential for my growth as an engineer. Currently, I&apos;m
-            rigorously learning
+            rigorously learning&nbsp;
             <span className="text-primary-purple font-extrabold text-xl">
               Typescript
             </span>
-            ,
+            ,&nbsp;
             <span className="text-primary-purple font-extrabold text-xl">
               React
             </span>
-            , and
+            , and&nbsp;
             <span className="text-primary-purple font-extrabold text-xl">
               Next.js
             </span>
