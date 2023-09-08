@@ -10,7 +10,7 @@ function About() {
         title="About Me"
         titleNo="01"
       />
-      <div className="flex flex-col lgl:flex-row lgl:gap-16 gap-2 lgl:mt-0 mt-4 flex-col-reverse lgl:items-center">
+      <div className="flex flex-col lgl:flex-row lgl:gap-16 gap-2 lgl:mt-0 mt-4 flex-col-reverse items-center">
         <div className="w-full lgl:w-2/3 text-lg text-primary-text font-medium flex flex-col gap-4 font-inter tracking-wide">
           <p>
             Hello! My name is Haruka Fujii, and I am a&nbsp;
@@ -53,18 +53,18 @@ function About() {
             improve people&quot;s lives.
           </p>
         </div>
-        <div className="w-full lgl:w-1/3 h-80 relative group flex justify-center items-center">
-          <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg flex justify-center items-center">
+        <div className="w-[320px] lgl:w-1/3 h-80 relative group flex justify-center items-center">
+          <div className="absolute w-full h-80 -left-3 lgl:-left-6 -top-6 rounded-lg flex justify-center items-center">
             <div className="w-full h-full relative z-20 flex justify-center items-center">
               <img
-                className="rounded-lg h-full object-cover"
+                className="rounded-lg h-full w-auto object-cover"
                 src={'/img/portfolio.svg'}
                 alt="portfolioImg"
               />
               <div className="hidden lgl:inline-block absolute w-full h-80 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </div>
-          <div className="hidden lgl:inline-flex w-full h-80 border-2  border-primary-purple rounded-md group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300"></div>
+          <div className="max-lgl:-mr-10 inline-flex w-full h-full border-2  border-primary-purple rounded-md group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300"></div>
         </div>
       </div>
     </section>
