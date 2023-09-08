@@ -9,7 +9,7 @@ const Skills = () => {
       {' '}
       <SectionTitle
         title="Skills"
-        titleNo="02"
+        titleNo="03"
       />
       <SkillIcons />
       <p className="font-inter text-xs sm:text-xs md:text-lg font-medium flex flex-row justify-end text-primary-purple">

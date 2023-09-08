@@ -75,26 +75,26 @@ export default function Navbar() {
             </Link>
 
             <Link
-              href="#skills"
-              onClick={handleScroll}
-              className="flex items-center gap-1 font-medium hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
-              <motion.li
-                initial={{ y: -10, opacity: 0 }}
-                animate={{ y: 0.1, opacity: 1 }}
-                transition={{ duration: 0.1, delay: 0.2 }}>
-                <span className="text-primary-purple">02.</span> Skills
-              </motion.li>
-            </Link>
-
-            <Link
               href="#Works"
               onClick={handleScroll}
               className="flex items-center gap-1 font-medium hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0.1, opacity: 1 }}
+                transition={{ duration: 0.1, delay: 0.2 }}>
+                <span className="text-primary-purple">02.</span> Works
+              </motion.li>
+            </Link>
+
+            <Link
+              href="#skills"
+              onClick={handleScroll}
+              className="flex items-center gap-1 font-medium hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
+              <motion.li
+                initial={{ y: -10, opacity: 0 }}
+                animate={{ y: 0.1, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.3 }}>
-                <span className="text-primary-purple">03.</span> Works
+                <span className="text-primary-purple">03.</span> Skills
               </motion.li>
             </Link>
 
@@ -180,7 +180,7 @@ export default function Navbar() {
                   </Link>
 
                   <Link
-                    href="#skills"
+                    href="#Works"
                     onClick={handleScroll}
                     className="flex items-center gap-1 font-medium hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
                     <motion.li
@@ -191,12 +191,12 @@ export default function Navbar() {
                         delay: 0.3,
                         ease: 'easeIn',
                       }}>
-                      <span className="text-primary-purple">02.</span> Skills
+                      <span className="text-primary-purple">02.</span> Works
                     </motion.li>
                   </Link>
 
                   <Link
-                    href="#Works"
+                    href="#skills"
                     onClick={handleScroll}
                     className="flex items-center gap-1 font-medium hover:text-primary-purple cursor-pointer duration-300 nav-link font-bold">
                     <motion.li
@@ -207,7 +207,7 @@ export default function Navbar() {
                         delay: 0.4,
                         ease: 'easeIn',
                       }}>
-                      <span className="text-primary-purple">03.</span> Works
+                      <span className="text-primary-purple">03.</span> Skills
                     </motion.li>
                   </Link>
 

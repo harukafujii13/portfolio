@@ -10,7 +10,7 @@ const Works = () => {
       className="max-w-containerSmall mx-auto py-10 lgl:py-32 bg-light">
       <SectionTitle
         title="Works"
-        titleNo="03"
+        titleNo="02"
       />
       {/* Projects container */}
       <div className="w-full flex flex-col items-center gap-28 mt-10 px-5 md:px-0">
