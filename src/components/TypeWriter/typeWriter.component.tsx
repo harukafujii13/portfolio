@@ -15,7 +15,7 @@ const TypeWriter = () => {
 
   return (
     <>
-      <span className="pl-[0.5rem] text-[1rem] lgl:text-2xl font-extrabold xs:text-[0.8rem] sm:text-[0.8rem]">
+      <span className="xl:pl-[0.4rem] lgl:pl-[0.4rem] lg:pl-[0.4rem] mdl:pl-[0.4rem] sml:pl-[0.4rem] pl-[0.25rem]   font-extrabold text-xs sml:text-base xl:text-2xl lgl:text-xl mdl:text-lg flex items-center">
         {text}
       </span>
       <Cursor cursorBlinking={false} />
