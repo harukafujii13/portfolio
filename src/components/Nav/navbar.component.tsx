@@ -5,11 +5,7 @@ import { motion } from 'framer-motion';
 import React, { useRef, useState } from 'react';
 import { MdOutlineClose } from 'react-icons/md';
 import { TbBrandGithub } from 'react-icons/tb';
-import {
-  SlSocialLinkedin,
-  SlSocialFacebook,
-  SlSocialInstagram,
-} from 'react-icons/sl';
+import { SlSocialLinkedin } from 'react-icons/sl';
 
 export default function Navbar() {
   const ref = useRef<string | any>('');
@@ -39,7 +35,7 @@ export default function Navbar() {
   }
 
   return (
-    <div className="w-full h-20 lg:h-[12vh] sticky top-0 z-50 bg-bg-light px-4 font-inter">
+    <div className="w-full h-20 lg:h-[12vh] sticky top-0 z-50 bg-bg-light bg-opacity-75 px-4 font-inter">
       <div className="max-w-container h-full mx-auto py-1 flex items-center justify-between">
         <motion.div
           initial={{ opacity: 0 }}
@@ -261,26 +257,6 @@ export default function Navbar() {
                     target="_blank">
                     <span className="w-10 h-10 text-xl bg-primary-pink rounded-full inline-flex items-center justify-center hover:text-primary-purple cursor-pointer hover:-translate-y-2 transition-all duration-300">
                       <SlSocialLinkedin />
-                    </span>
-                  </motion.a>
-                  <motion.a
-                    initial={{ y: 20, opacity: 0 }}
-                    animate={{ y: 0, opacity: 1 }}
-                    transition={{ delay: 0.9, ease: 'easeIn' }}
-                    href="https://www.facebook.com/hfujii13"
-                    target="_blank">
-                    <span className="w-10 h-10 text-xl bg-primary-pink rounded-full inline-flex items-center justify-center hover:text-primary-purple cursor-pointer hover:-translate-y-2 transition-all duration-300">
-                      <SlSocialFacebook />
-                    </span>
-                  </motion.a>
-                  <motion.a
-                    initial={{ y: 20, opacity: 0 }}
-                    animate={{ y: 0, opacity: 1 }}
-                    transition={{ delay: 0.95, ease: 'easeIn' }}
-                    href="https://www.instagram.com/13hrk10"
-                    target="_blank">
-                    <span className="w-10 h-10 text-xl bg-primary-pink rounded-full inline-flex items-center justify-center hover:text-primary-purple cursor-pointer hover:-translate-y-2 transition-all duration-300">
-                      <SlSocialInstagram />
                     </span>
                   </motion.a>
                 </div>
