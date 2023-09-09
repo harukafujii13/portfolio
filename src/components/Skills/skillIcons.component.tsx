@@ -28,7 +28,6 @@ const icons = [
   { icon: <SiReact />, name: 'React' },
   { icon: <SiNextdotjs />, name: 'Next.js' },
   { icon: <SiRedux />, name: 'Redux' },
-  { icon: <SiGraphql />, name: 'GraphQL' },
   { icon: <DiNodejsSmall />, name: 'Node.js' },
   { icon: <SiExpress />, name: 'Express' },
   { icon: <SiMysql />, name: 'Mysql' },
