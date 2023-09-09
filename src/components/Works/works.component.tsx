@@ -13,15 +13,15 @@ const Works = () => {
         titleNo="02"
       />
       {/* Projects container */}
-      <div className="w-full flex flex-col items-center gap-28 mt-10 px-5 md:px-0">
+      <div className="w-full flex flex-col items-center lgl:gap-28 mdl:gap-14 gap-10 mt-10 px-5 md:px-0">
         {/* Project one*/}
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col lgl:gap-6 mdl:gap-4 gap-2">
           <div className="text-2xl font-extrabold text-primary-purple font-montserrat flex justify-center">
             Cafe Hopping
           </div>
           <div className="w-full flex flex-col lg:flex-row items-center gap-6">
             <a
-              className="w-full lg:w-1/2 h-auto relative group mb-6 lg:mb-0"
+              className="w-full lg:w-1/2 h-auto relative group"
               href="https://cafe-hopping.vercel.app/"
               target="_blank"
               rel="noopener noreferrer">
@@ -64,13 +64,13 @@ const Works = () => {
           </div>
         </div>
         {/* Project two*/}
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col lgl:gap-6 mdl:gap-4 gap-2">
           <div className="text-2xl font-extrabold text-primary-purple font-montserrat flex justify-center">
             Money Note
           </div>
           <div className="w-full flex flex-col lg:flex-row-reverse items-center gap-6">
             <a
-              className="w-full lg:w-1/2 h-auto relative group mb-6 lg:mb-0"
+              className="w-full lg:w-1/2 h-auto relative group"
               href="#"
               target="_blank"
               rel="noopener noreferrer">
@@ -113,13 +113,13 @@ const Works = () => {
           </div>
         </div>
         {/* Project3 */}
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col lgl:gap-6 mdl:gap-4 gap-2">
           <div className="text-2xl font-extrabold text-primary-purple font-montserrat flex justify-center">
             Teddies vs Monsters
           </div>
           <div className="w-full flex flex-col lg:flex-row items-center gap-6">
             <a
-              className="w-full lg:w-1/2 h-auto relative group mb-6 lg:mb-0"
+              className="w-full lg:w-1/2 h-auto relative group"
               href="https://teddies-frontend.vercel.app/"
               target="_blank"
               rel="noopener noreferrer">
@@ -162,13 +162,13 @@ const Works = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col lgl:gap-6 mdl:gap-4 gap-2">
           <h3 className="text-2xl font-extrabold text-primary-purple font-montserrat flex justify-center">
             Aurora Forecast
           </h3>
-          <div className="w-full flex flex-col lg:flex-row-reverse items-center gap-6">
+          <div className="w-full flex flex-col lg:flex-row-reverse items-center lgl:gap-6 mdl:gap-4 gap-2">
             <a
-              className="w-full lg:w-1/2 h-auto relative group mb-6 lg:mb-0"
+              className="w-full lg:w-1/2 h-auto relative group"
               href="https://aurora-forecast.vercel.app/"
               target="_blank"
               rel="noopener noreferrer">
