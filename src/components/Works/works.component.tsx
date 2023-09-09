@@ -18,18 +18,18 @@ const Works = () => {
         <div className="w-full flex flex-col lg:flex-row items-center gap-6">
           <a
             className="w-full lg:w-1/2 h-auto relative group mb-6 lg:mb-0"
-            href="#"
+            href="https://cafe-hopping.vercel.app/"
             target="_blank"
             rel="noopener noreferrer">
             <img
               className="w-full h-full object-cover rounded-md shadow-lg"
-              src={'/img/work.svg'}
+              src={'/img/cafe_hopping.png'}
               alt="work"
             />
           </a>
           <div className="w-full lg:w-1/2 flex flex-col gap-6">
             <h3 className="text-2xl font-extrabold text-primary-purple font-montserrat">
-              Project Name
+              Cafe Hopping
             </h3>
             <p className="bg-primary-pink text-sm md:text-base p-2 md:p-6 rounded-md font-inter">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
@@ -45,14 +45,14 @@ const Works = () => {
             </ul>
             <div className="text-2xl flex gap-4">
               <a
-                href="#"
+                href="https://github.com/harukafujii13/CafeHopping_App.git"
                 className="hover:text-primary-purple duration-300"
                 target="_blank"
                 rel="noopener noreferrer">
                 <TbBrandGithubFilled />
               </a>
               <a
-                href="#"
+                href="https://cafe-hopping.vercel.app/"
                 className="hover:text-primary-purple duration-300"
                 target="_blank"
                 rel="noopener noreferrer">
@@ -70,13 +70,13 @@ const Works = () => {
             rel="noopener noreferrer">
             <img
               className="w-full h-full object-cover rounded-md shadow-lg"
-              src={'/img/work.svg'}
+              src={'/img/money_note.png'}
               alt="work"
             />
           </a>
           <div className="w-full lg:w-1/2 flex flex-col gap-6">
             <h3 className="text-2xl font-extrabold text-primary-purple font-montserrat">
-              Project Name
+              Money Note
             </h3>
             <p className="bg-primary-green text-sm md:text-base p-2 md:p-6 rounded-md font-inter">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
@@ -92,7 +92,7 @@ const Works = () => {
             </ul>
             <div className="text-2xl flex gap-4">
               <a
-                href="#"
+                href="https://github.com/harukafujii13/MoneyNote_App.git"
                 className="hover:text-primary-purple duration-300"
                 target="_blank"
                 rel="noopener noreferrer">
@@ -112,18 +112,18 @@ const Works = () => {
         <div className="w-full flex flex-col lg:flex-row items-center gap-6">
           <a
             className="w-full lg:w-1/2 h-auto relative group mb-6 lg:mb-0"
-            href="#"
+            href="https://teddies-frontend.vercel.app/"
             target="_blank"
             rel="noopener noreferrer">
             <img
               className="w-full h-full object-cover rounded-md shadow-lg"
-              src={'/img/work.svg'}
+              src={'/img/teddy.png'}
               alt="work"
             />
           </a>
           <div className="w-full lg:w-1/2 flex flex-col gap-6">
             <h3 className="text-2xl font-extrabold text-primary-purple font-montserrat">
-              Project Name
+              Teddies vs Monsters
             </h3>
             <p className="bg-primary-pink text-sm md:text-base p-2 md:p-6 rounded-md font-inter">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
@@ -139,14 +139,14 @@ const Works = () => {
             </ul>
             <div className="text-2xl flex gap-4">
               <a
-                href="#"
+                href="https://github.com/jun-tsuno/teddies_frontend.git"
                 className="hover:text-primary-purple duration-300"
                 target="_blank"
                 rel="noopener noreferrer">
                 <TbBrandGithubFilled />
               </a>
               <a
-                href="#"
+                href="https://teddies-frontend.vercel.app/"
                 className="hover:text-primary-purple duration-300"
                 target="_blank"
                 rel="noopener noreferrer">
@@ -159,18 +159,18 @@ const Works = () => {
         <div className="w-full flex flex-col lg:flex-row-reverse items-center gap-6 mt-10">
           <a
             className="w-full lg:w-1/2 h-auto relative group mb-6 lg:mb-0"
-            href="#"
+            href="https://aurora-forecast.vercel.app/"
             target="_blank"
             rel="noopener noreferrer">
             <img
               className="w-full h-full object-cover rounded-md shadow-lg"
-              src={'/img/work.svg'}
+              src={'/img/aurora.png'}
               alt="work"
             />
           </a>
           <div className="w-full lg:w-1/2 flex flex-col gap-6">
             <h3 className="text-2xl font-extrabold text-primary-purple font-montserrat">
-              Project Name
+              Aurora Forecast
             </h3>
             <p className="bg-primary-green text-sm md:text-base p-2 md:p-6 rounded-md font-inter">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
@@ -186,14 +186,14 @@ const Works = () => {
             </ul>
             <div className="text-2xl flex gap-4">
               <a
-                href="#"
+                href="https://github.com/harukafujii13/Aurora_Forecast.git"
                 className="hover:text-primary-purple duration-300"
                 target="_blank"
                 rel="noopener noreferrer">
                 <TbBrandGithubFilled />
               </a>
               <a
-                href="#"
+                href="https://aurora-forecast.vercel.app/"
                 className="hover:text-primary-purple duration-300"
                 target="_blank"
                 rel="noopener noreferrer">
