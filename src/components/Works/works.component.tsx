@@ -32,7 +32,7 @@ const Works = () => {
               />
             </a>
             <div className="w-full lg:w-1/2 flex flex-col lgl:gap-6 mdl:gap-4 gap-2">
-              <p className="bg-primary-pink text-sm md:text-base p-2 md:p-6 rounded-md font-inter">
+              <p className="bg-primary-pink text-sm md:text-base p-2 md:p-6 rounded-md font-inter bg-opacity-70">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Molestias rem quia obcaecati et provident cum, fugiat numquam
                 soluta, perspiciatis magnam non nulla eos tempore expedita at,
@@ -81,7 +81,7 @@ const Works = () => {
               />
             </a>
             <div className="w-full lg:w-1/2 flex flex-col lgl:gap-6 mdl:gap-4 gap-2">
-              <p className="bg-primary-green text-sm md:text-base p-2 md:p-6 rounded-md font-inter">
+              <p className="bg-primary-green text-sm md:text-base p-2 md:p-6 rounded-md font-inter bg-opacity-70">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Molestias rem quia obcaecati et provident cum, fugiat numquam
                 soluta, perspiciatis magnam non nulla eos tempore expedita at,
@@ -130,7 +130,7 @@ const Works = () => {
               />
             </a>
             <div className="w-full lg:w-1/2 flex flex-col lgl:gap-6 mdl:gap-4 gap-2">
-              <p className="bg-primary-pink text-sm md:text-base p-2 md:p-6 rounded-md font-inter">
+              <p className="bg-primary-pink text-sm md:text-base p-2 md:p-6 rounded-md font-inter bg-opacity-70">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Molestias rem quia obcaecati et provident cum, fugiat numquam
                 soluta, perspiciatis magnam non nulla eos tempore expedita at,
@@ -179,7 +179,7 @@ const Works = () => {
               />
             </a>
             <div className="w-full lg:w-1/2 flex flex-col lgl:gap-6 mdl:gap-4 gap-2">
-              <p className="bg-primary-green text-sm md:text-base p-2 md:p-6 rounded-md font-inter">
+              <p className="bg-primary-green text-sm md:text-base p-2 md:p-6 rounded-md font-inter bg-opacity-70">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Molestias rem quia obcaecati et provident cum, fugiat numquam
                 soluta, perspiciatis magnam non nulla eos tempore expedita at,
