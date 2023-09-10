@@ -19,7 +19,7 @@ const Works = () => {
           <div className="text-2xl font-extrabold text-primary-purple font-montserrat flex justify-center">
             Cafe Hopping
           </div>
-          <div className="w-full flex flex-col lg:flex-row items-center gap-6">
+          <div className="w-full flex flex-col lg:flex-row items-center lgl:gap-6 mdl:gap-6 gap-4">
             <a
               className="w-full lg:w-1/2 h-auto relative group"
               href="https://cafe-hopping.vercel.app/"
@@ -31,7 +31,7 @@ const Works = () => {
                 alt="work"
               />
             </a>
-            <div className="w-full lg:w-1/2 flex flex-col gap-6">
+            <div className="w-full lg:w-1/2 flex flex-col lgl:gap-6 mdl:gap-4 gap-2">
               <p className="bg-primary-pink text-sm md:text-base p-2 md:p-6 rounded-md font-inter">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Molestias rem quia obcaecati et provident cum, fugiat numquam
@@ -68,7 +68,7 @@ const Works = () => {
           <div className="text-2xl font-extrabold text-primary-purple font-montserrat flex justify-center">
             Money Note
           </div>
-          <div className="w-full flex flex-col lg:flex-row-reverse items-center gap-6">
+          <div className="w-full flex flex-col lg:flex-row-reverse items-center lgl:gap-6 mdl:gap-6 gap-4">
             <a
               className="w-full lg:w-1/2 h-auto relative group"
               href="#"
@@ -80,7 +80,7 @@ const Works = () => {
                 alt="work"
               />
             </a>
-            <div className="w-full lg:w-1/2 flex flex-col gap-6">
+            <div className="w-full lg:w-1/2 flex flex-col lgl:gap-6 mdl:gap-4 gap-2">
               <p className="bg-primary-green text-sm md:text-base p-2 md:p-6 rounded-md font-inter">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Molestias rem quia obcaecati et provident cum, fugiat numquam
@@ -117,7 +117,7 @@ const Works = () => {
           <div className="text-2xl font-extrabold text-primary-purple font-montserrat flex justify-center">
             Teddies vs Monsters
           </div>
-          <div className="w-full flex flex-col lg:flex-row items-center gap-6">
+          <div className="w-full flex flex-col lg:flex-row items-center lgl:gap-6 mdl:gap-6 gap-4">
             <a
               className="w-full lg:w-1/2 h-auto relative group"
               href="https://teddies-frontend.vercel.app/"
@@ -129,7 +129,7 @@ const Works = () => {
                 alt="work"
               />
             </a>
-            <div className="w-full lg:w-1/2 flex flex-col gap-6">
+            <div className="w-full lg:w-1/2 flex flex-col lgl:gap-6 mdl:gap-4 gap-2">
               <p className="bg-primary-pink text-sm md:text-base p-2 md:p-6 rounded-md font-inter">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Molestias rem quia obcaecati et provident cum, fugiat numquam
@@ -166,7 +166,7 @@ const Works = () => {
           <h3 className="text-2xl font-extrabold text-primary-purple font-montserrat flex justify-center">
             Aurora Forecast
           </h3>
-          <div className="w-full flex flex-col lg:flex-row-reverse items-center lgl:gap-6 mdl:gap-4 gap-2">
+          <div className="w-full flex flex-col lg:flex-row-reverse items-center lgl:gap-6 mdl:gap-6 gap-4">
             <a
               className="w-full lg:w-1/2 h-auto relative group"
               href="https://aurora-forecast.vercel.app/"
@@ -178,7 +178,7 @@ const Works = () => {
                 alt="work"
               />
             </a>
-            <div className="w-full lg:w-1/2 flex flex-col gap-6">
+            <div className="w-full lg:w-1/2 flex flex-col lgl:gap-6 mdl:gap-4 gap-2">
               <p className="bg-primary-green text-sm md:text-base p-2 md:p-6 rounded-md font-inter">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Molestias rem quia obcaecati et provident cum, fugiat numquam
