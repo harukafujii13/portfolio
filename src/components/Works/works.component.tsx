@@ -33,10 +33,11 @@ const Works = () => {
             </a>
             <div className="w-full lg:w-1/2 flex flex-col lgl:gap-6 mdl:gap-4 gap-2">
               <p className="bg-primary-pink text-sm md:text-base p-2 md:p-6 rounded-md font-inter bg-opacity-70">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Molestias rem quia obcaecati et provident cum, fugiat numquam
-                soluta, perspiciatis magnam non nulla eos tempore expedita at,
-                asperiores ea veritatis eum.
+                Discover and engage with cafes nearby or in a specified area
+                using the Cafe Finder app. Save your favorite spots with the
+                bookmark feature, see the most-liked cafes with the like
+                feature, and check out reviews to find the perfect spot.
+                It&apos;s a cafe lover&apos;s essential tool.
               </p>
               <ul className="text-xs md:text-sm font-inter tracking-wide flex flex-wrap gap-2 justify-start text-primary-text">
                 <li>#Nextjs</li>
@@ -84,10 +85,12 @@ const Works = () => {
             </a>
             <div className="w-full lg:w-1/2 flex flex-col lgl:gap-6 mdl:gap-4 gap-2">
               <p className="bg-primary-green text-sm md:text-base p-2 md:p-6 rounded-md font-inter bg-opacity-70">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Molestias rem quia obcaecati et provident cum, fugiat numquam
-                soluta, perspiciatis magnam non nulla eos tempore expedita at,
-                asperiores ea veritatis eum.
+                This financial management app is your personal tool for easy and
+                efficient tracking of your financial transactions. Quickly log,
+                edit, or delete entries of your incomes and expenses, and always
+                have a clear view of your total balance right on the homepage.
+                Plus, make the app truly yours by customizing your profile on
+                the profile page.
               </p>
               <ul className="text-xs md:text-sm font-inter tracking-wide flex flex-wrap gap-2  justify-start text-primary-text">
                 <li>#React</li>
@@ -135,10 +138,10 @@ const Works = () => {
             </a>
             <div className="w-full lg:w-1/2 flex flex-col lgl:gap-6 mdl:gap-4 gap-2">
               <p className="bg-primary-pink text-sm md:text-base p-2 md:p-6 rounded-md font-inter bg-opacity-70">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Molestias rem quia obcaecati et provident cum, fugiat numquam
-                soluta, perspiciatis magnam non nulla eos tempore expedita at,
-                asperiores ea veritatis eum.
+                As part of a collaborative team project, we developed a gaming
+                website for a real client. The site not only offers a platform
+                where users can purchase gaming-related products but also serves
+                as a hub for all essential company information.
               </p>
               <ul className="text-xs md:text-sm font-inter tracking-wide flex flex-wrap gap-2 justify-start text-primary-text">
                 <li>#Nextjs</li>
@@ -188,14 +191,15 @@ const Works = () => {
             </a>
             <div className="w-full lg:w-1/2 flex flex-col lgl:gap-6 mdl:gap-4 gap-2">
               <p className="bg-primary-green text-sm md:text-base p-2 md:p-6 rounded-md font-inter bg-opacity-70">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Molestias rem quia obcaecati et provident cum, fugiat numquam
-                soluta, perspiciatis magnam non nulla eos tempore expedita at,
-                asperiores ea veritatis eum.
+                With this aurora forecast app, users can search for a specific
+                area and instantly see the current likelihood of witnessing the
+                aurora in that location.
               </p>
               <ul className="text-xs md:text-sm font-inter tracking-wide flex flex-wrap gap-2 justify-start text-primary-text">
                 <li>#React</li>
                 <li>#Redux</li>
+                <li>#Mapbox</li>
+                <li>#API</li>
                 <li>#tailwind</li>
               </ul>
               <div className="text-2xl flex gap-4">
