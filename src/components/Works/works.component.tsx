@@ -38,11 +38,13 @@ const Works = () => {
                 soluta, perspiciatis magnam non nulla eos tempore expedita at,
                 asperiores ea veritatis eum.
               </p>
-              <ul className="text-xs md:text-sm font-inter tracking-wide flex flex-wrap gap-2 md:gap-5 justify-start text-primary-text">
-                <li>Nextjs</li>
-                <li>Typescript</li>
-                <li>Next-auth</li>
-                <li>Tailwind</li>
+              <ul className="text-xs md:text-sm font-inter tracking-wide flex flex-wrap gap-2 justify-start text-primary-text">
+                <li>#Nextjs</li>
+                <li>#next-auth</li>
+                <li>#PostgreSQL</li>
+                <li>#Prisma</li>
+                <li>#TypeScript</li>
+                <li>#Google Maps API</li>
               </ul>
               <div className="text-2xl flex gap-4">
                 <a
@@ -87,11 +89,13 @@ const Works = () => {
                 soluta, perspiciatis magnam non nulla eos tempore expedita at,
                 asperiores ea veritatis eum.
               </p>
-              <ul className="text-xs md:text-sm font-inter tracking-wide flex flex-wrap gap-2 md:gap-5 justify-start text-primary-text">
-                <li>Nextjs</li>
-                <li>Typescript</li>
-                <li>Next-auth</li>
-                <li>Tailwind</li>
+              <ul className="text-xs md:text-sm font-inter tracking-wide flex flex-wrap gap-2  justify-start text-primary-text">
+                <li>#React</li>
+                <li>#RTK</li>
+                <li>#MongoDB</li>
+                <li>#Express</li>
+                <li>#JWT</li>
+                <li>#tailwind</li>
               </ul>
               <div className="text-2xl flex gap-4">
                 <a
@@ -136,11 +140,15 @@ const Works = () => {
                 soluta, perspiciatis magnam non nulla eos tempore expedita at,
                 asperiores ea veritatis eum.
               </p>
-              <ul className="text-xs md:text-sm font-inter tracking-wide flex flex-wrap gap-2 md:gap-5 justify-start text-primary-text">
-                <li>Nextjs</li>
-                <li>Typescript</li>
-                <li>Next-auth</li>
-                <li>Tailwind</li>
+              <ul className="text-xs md:text-sm font-inter tracking-wide flex flex-wrap gap-2 justify-start text-primary-text">
+                <li>#Nextjs</li>
+                <li>#strapi</li>
+                <li>#stripe</li>
+                <li>#PostgreSQL</li>
+                <li>#Cloudinary</li>
+                <li>#docker</li>
+                <li>#TypeScript</li>
+                <li>#Storybook</li>
               </ul>
               <div className="text-2xl flex gap-4">
                 <a
@@ -185,11 +193,10 @@ const Works = () => {
                 soluta, perspiciatis magnam non nulla eos tempore expedita at,
                 asperiores ea veritatis eum.
               </p>
-              <ul className="text-xs md:text-sm font-inter tracking-wide flex flex-wrap gap-2 md:gap-5 justify-start text-primary-text">
-                <li>Nextjs</li>
-                <li>Typescript</li>
-                <li>Next-auth</li>
-                <li>Tailwind</li>
+              <ul className="text-xs md:text-sm font-inter tracking-wide flex flex-wrap gap-2 justify-start text-primary-text">
+                <li>#React</li>
+                <li>#Redux</li>
+                <li>#tailwind</li>
               </ul>
               <div className="text-2xl flex gap-4">
                 <a
