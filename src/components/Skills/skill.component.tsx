@@ -12,7 +12,7 @@ const Skills = () => {
         titleNo="03"
       />
       <SkillIcons />
-      <p className="font-montserrat text-xs sm:text-xs md:text-lg font-medium flex flex-row justify-end text-primary-purple">
+      <p className="font-montserrat text-xs sm:text-xs md:text-lg font-bold flex flex-row justify-end text-primary-purple">
         and my journey of learning still continues!
       </p>
     </section>
