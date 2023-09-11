@@ -74,7 +74,7 @@ const Works = () => {
           <div className="w-full flex flex-col lg:flex-row-reverse items-center lgl:gap-6 mdl:gap-6 gap-4">
             <a
               className="w-full lg:w-1/2 h-auto relative group"
-              href="#"
+              href="https://money-note-app.vercel.app/"
               target="_blank"
               rel="noopener noreferrer">
               <img
@@ -109,7 +109,7 @@ const Works = () => {
                   <TbBrandGithubFilled />
                 </a>
                 <a
-                  href="#"
+                  href="https://money-note-app.vercel.app/"
                   className="hover:text-primary-purple duration-300"
                   target="_blank"
                   rel="noopener noreferrer">
