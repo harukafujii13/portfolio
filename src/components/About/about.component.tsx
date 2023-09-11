@@ -10,47 +10,31 @@ function About() {
         title="About Me"
         titleNo="01"
       />
-      <div className="flex flex-col lgl:flex-row lgl:gap-16 gap-2 lgl:mt-0 mt-4 flex-col-reverse items-center">
-        <div className="w-full lgl:w-2/3 text-lg text-primary-text font-medium flex flex-col gap-4 font-inter tracking-wide">
+      <div className="flex flex-col lgl:flex-row lgl:gap-16 mdl:gap-8 gap-8 lgl:mt-0 mt-4 flex-col-reverse items-center">
+        <div className="w-full lgl:w-2/3 lgl:text-lg mdl:text-lg text-base text-primary-text font-medium flex flex-col font-inter tracking-wide p-2 lgl:p-0 ">
           <p>
-            Hello! My name is Haruka Fujii, and I am a&nbsp;
-            <span className="text-primary-purple font-extrabold text-xl">
-              Software Engineer&nbsp;
+            I am a Software Engineer specializing in
+            <span className="text-primary-purple font-extrabold lgl:text-xl mdl:text-xl text-lg">
+              Typescript
             </span>
-            based in Vancouver. If I were to describe myself in a single word,
-            it would be&nbsp;
-            <span className="text-primary-purple font-extrabold text-xl">
-              &quot;adventurous&quot;
+            ,&nbsp;
+            <span className="text-primary-purple font-extrabold lgl:text-xl mdl:text-xl text-lg">
+              React
+            </span>
+            , and&nbsp;
+            <span className="text-primary-purple font-extrabold lgl:text-xl mdl:text-xl text-lg">
+              Next.js
             </span>
             .
           </p>
           <p>
-            After graduating from university, I worked as a salesperson for a
-            Japanese trading company for two years. Seeking new challenges, I
-            transitioned into the field of engineering, which brought me to
-            Vancouver.
-          </p>
-          <p>
-            I am committed to learning new skills every day, which I believe is
-            essential for my growth as an engineer. Currently, I&apos;m
-            rigorously learning&nbsp;
-            <span className="text-primary-purple font-extrabold text-xl">
-              Typescript
-            </span>
-            ,&nbsp;
-            <span className="text-primary-purple font-extrabold text-xl">
-              React
-            </span>
-            , and&nbsp;
-            <span className="text-primary-purple font-extrabold text-xl">
-              Next.js
-            </span>
-            , and I genuinely enjoy the process of acquiring new knowledge.
-          </p>
-          <p>
-            As a software engineer, I&quot;m going to challenge myself by
-            designing innovative tools and frameworks that have the potential to
-            improve people&quot;s lives.
+            I am always on the lookout for opportunities to acquire new
+            knowledge and enhance my skill set. Passionate about clean and
+            efficient code, I prioritize creating solutions that can be easily
+            understood and integrated by my team members, thereby enhancing
+            overall productivity and project success. I firmly believe that my
+            dedication not only fuels my personal growth but also significantly
+            contributes to a project&apos;s performance.
           </p>
         </div>
         <div className="w-[320px] lgl:w-1/3 h-80 relative group flex justify-center items-center">
