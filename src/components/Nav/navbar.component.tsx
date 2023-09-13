@@ -112,7 +112,7 @@ export default function Navbar() {
           </ul>
 
           <a
-            href="#"
+            href="/img/haruka_fujii_resume.pdf"
             target="_blank">
             <motion.button
               initial={{ opacity: 0 }}
@@ -228,7 +228,7 @@ export default function Navbar() {
                   </Link>
                 </ul>
                 <a
-                  href="#"
+                  href="/img/haruka_fujii_resume.pdf"
                   target="_blank">
                   <motion.button
                     initial={{ opacity: 0 }}
