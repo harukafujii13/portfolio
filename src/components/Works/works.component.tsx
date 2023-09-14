@@ -197,7 +197,7 @@ const Works = () => {
               </p>
               <ul className="text-xs md:text-sm font-inter tracking-wide flex flex-wrap gap-2 justify-start text-primary-text">
                 <li>#React</li>
-                <li>#Redux</li>
+                <li>#RTK</li>
                 <li>#Mapbox</li>
                 <li>#API</li>
                 <li>#tailwind</li>
