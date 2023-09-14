@@ -31,7 +31,7 @@ const Works = () => {
                 alt="work"
               />
             </a>
-            <div className="w-full lg:w-1/2 flex flex-col lgl:gap-6 mdl:gap-4 gap-2">
+            <div className="w-full lg:w-1/2 flex flex-col lgl:gap-2 mdl:gap-3 gap-2">
               <p className="bg-primary-pink text-sm md:text-base p-2 md:p-6 rounded-md font-inter bg-opacity-70">
                 Discover and engage with cafes nearby or in a specified area
                 using the Cafe Finder app. Save your favorite spots with the
@@ -39,13 +39,20 @@ const Works = () => {
                 feature, and check out reviews to find the perfect spot.
                 It&apos;s a cafe lover&apos;s essential tool.
               </p>
-              <ul className="text-xs md:text-sm font-inter tracking-wide flex flex-wrap gap-2 justify-start text-primary-text">
+              <ul className="text-xs md:text-sm font-inter tracking-wide flex flex-wrap gap-1 justify-start text-primary-text">
                 <li>#Nextjs</li>
                 <li>#next-auth</li>
                 <li>#PostgreSQL</li>
                 <li>#Prisma</li>
                 <li>#TypeScript</li>
                 <li>#Google Maps API</li>
+              </ul>
+              <ul className="flex flex-col text-xs md:text-sm font-inter">
+                <li>Test User</li>
+                <ul className="flex flex-row lgl:gap-5 mdl:gap-5 gap-2">
+                  <li>Email: test@test.com</li>
+                  <li>Password: test12345</li>
+                </ul>
               </ul>
               <div className="text-2xl flex gap-4">
                 <a
@@ -83,7 +90,7 @@ const Works = () => {
                 alt="work"
               />
             </a>
-            <div className="w-full lg:w-1/2 flex flex-col lgl:gap-6 mdl:gap-4 gap-2">
+            <div className="w-full lg:w-1/2 flex flex-col lgl:gap-2 mdl:gap-3 gap-2">
               <p className="bg-primary-green text-sm md:text-base p-2 md:p-6 rounded-md font-inter bg-opacity-70">
                 This financial management app is your personal tool for easy and
                 efficient tracking of your financial transactions. Quickly log,
@@ -92,13 +99,20 @@ const Works = () => {
                 Plus, make the app truly yours by customizing your profile on
                 the profile page.
               </p>
-              <ul className="text-xs md:text-sm font-inter tracking-wide flex flex-wrap gap-2  justify-start text-primary-text">
+              <ul className="text-xs md:text-sm font-inter tracking-wide flex flex-wrap gap-1  justify-start text-primary-text">
                 <li>#React</li>
                 <li>#RTK</li>
                 <li>#MongoDB</li>
                 <li>#Express</li>
                 <li>#JWT</li>
                 <li>#tailwind</li>
+              </ul>
+              <ul className="flex flex-col text-xs md:text-sm font-inter">
+                <li>Test User</li>
+                <ul className="flex flex-row lgl:gap-5 mdl:gap-5 gap-2">
+                  <li>Email: test@test.com</li>
+                  <li>Password: test12345</li>
+                </ul>
               </ul>
               <div className="text-2xl flex gap-4">
                 <a
@@ -136,14 +150,14 @@ const Works = () => {
                 alt="work"
               />
             </a>
-            <div className="w-full lg:w-1/2 flex flex-col lgl:gap-6 mdl:gap-4 gap-2">
+            <div className="w-full lg:w-1/2 flex flex-col lgl:gap-2 mdl:gap-3 gap-2">
               <p className="bg-primary-pink text-sm md:text-base p-2 md:p-6 rounded-md font-inter bg-opacity-70">
                 As part of a collaborative team project, we developed a gaming
                 website for a real client. The site not only offers a platform
                 where users can purchase gaming-related products but also serves
                 as a hub for all essential company information.
               </p>
-              <ul className="text-xs md:text-sm font-inter tracking-wide flex flex-wrap gap-2 justify-start text-primary-text">
+              <ul className="text-xs md:text-sm font-inter tracking-wide flex flex-wrap gap-1 justify-start text-primary-text">
                 <li>#Nextjs</li>
                 <li>#strapi</li>
                 <li>#stripe</li>
@@ -152,6 +166,13 @@ const Works = () => {
                 <li>#docker</li>
                 <li>#TypeScript</li>
                 <li>#Storybook</li>
+              </ul>
+              <ul className="flex flex-col text-xs md:text-sm font-inter">
+                <li>Test User</li>
+                <ul className="flex flex-row lgl:gap-5 mdl:gap-5 gap-2">
+                  <li>Email: test@test.com</li>
+                  <li>Password: test12345</li>
+                </ul>
               </ul>
               <div className="text-2xl flex gap-4">
                 <a
@@ -189,13 +210,13 @@ const Works = () => {
                 alt="work"
               />
             </a>
-            <div className="w-full lg:w-1/2 flex flex-col lgl:gap-6 mdl:gap-4 gap-2">
+            <div className="w-full lg:w-1/2 flex flex-col lgl:gap-2 mdl:gap-3 gap-2">
               <p className="bg-primary-green text-sm md:text-base p-2 md:p-6 rounded-md font-inter bg-opacity-70">
                 With this aurora forecast app, users can search for a specific
                 area and instantly see the current likelihood of witnessing the
                 aurora in that location.
               </p>
-              <ul className="text-xs md:text-sm font-inter tracking-wide flex flex-wrap gap-2 justify-start text-primary-text">
+              <ul className="text-xs md:text-sm font-inter tracking-wide flex flex-wrap gap-1 justify-start text-primary-text">
                 <li>#React</li>
                 <li>#RTK</li>
                 <li>#Mapbox</li>
