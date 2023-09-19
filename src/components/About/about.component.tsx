@@ -13,7 +13,7 @@ function About() {
       <div className="flex flex-col lgl:flex-row lgl:gap-16 mdl:gap-8 gap-8 lgl:mt-0 mt-4 flex-col-reverse items-center">
         <div className="w-full lgl:w-2/3 lgl:text-lg mdl:text-lg text-base text-primary-text font-medium flex flex-col font-inter tracking-wide p-2 lgl:p-0 ">
           <p>
-            I am a Software Engineer specializing in
+            I am a Full-Stack Web Developer specializing in
             <span className="text-primary-purple font-extrabold lgl:text-xl mdl:text-xl text-lg">
               Typescript
             </span>

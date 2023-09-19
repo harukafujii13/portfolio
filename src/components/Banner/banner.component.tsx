@@ -24,7 +24,7 @@ const Banner = () => {
           <span className="text-xl xl:text-5xl lgl:text-4xl mdl:text-3xl text-primary-text font-semibold">
             Creative&nbsp;
             <span className="text-primary-purple font-black">
-              Software Engineer&nbsp;
+              Full-Stack Developer&nbsp;
             </span>
           </span>
           <span className="text-xl xl:text-5xl lgl:text-4xl mdl:text-3xl text-primary-text font-semibold">
