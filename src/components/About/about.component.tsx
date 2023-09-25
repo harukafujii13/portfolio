@@ -33,7 +33,7 @@ function About() {
             efficient code, I prioritize creating solutions that can be easily
             understood and integrated by my team members, thereby enhancing
             overall productivity and project success. I firmly believe that my
-            dedication not only fuels my personal growth but also significantly
+            dedication not only fuels my personal growth, but also significantly
             contributes to a project&apos;s performance.
           </p>
         </div>
