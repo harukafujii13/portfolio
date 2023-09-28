@@ -176,7 +176,7 @@ const Works = () => {
               </ul>
               <div className="text-2xl flex gap-4">
                 <a
-                  href="https://github.com/jun-tsuno/teddies_frontend.git"
+                  href="https://github.com/harukafujii13/TeddiesVsMonsters.git"
                   className="hover:text-primary-purple duration-300"
                   target="_blank"
                   rel="noopener noreferrer">
